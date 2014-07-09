@@ -2,6 +2,33 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
-    
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/images" />
+
+    <DigitalClock
+        android:id="@+id/digitalClock1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200px"
+        android:layout_marginTop="100px"
+        android:text="DigitalClock" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="370px"
+        android:src="@drawable/images2" />
+
+    <DigitalClock
+        android:id="@+id/analogClock1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="400px"
+        android:layout_marginTop="100px" />
 
 </FrameLayout>
